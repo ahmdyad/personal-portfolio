@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Ahmad Ziyad — AI/ML, computer vision, and creative web architecture." />
+    <meta name="theme-color" content="#05050f" />
+    <title>Ahmad Ziyad — AI/ML & Computer Vision Engineer</title>
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="custom.css" />
+    <style>.profile-section .section-heading h2{font-family:"Cascadia Code","Cascadia Mono",Consolas,"Courier New",monospace;font-size:clamp(1.65rem,4vw,3.1rem);font-weight:700;letter-spacing:-.07em;color:var(--primary);text-shadow:0 0 24px color-mix(in srgb,var(--primary) 30%,transparent)}</style>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="index.html" aria-label="Ahmad Ziyad — home"><span>YAD</span><strong>Ahmad Ziyad</strong></a>
+        <div class="nav-links" id="desktop-nav">
+          <a href="index.html">Home</a><a href="about.html">About Me</a><a href="projects.html">Projects</a>
+        </div>
+        <div class="nav-actions">
+          <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch colour theme"><span aria-hidden="true">◐</span></button>
+          <a class="button button-outline contact-button" href="#contact">Contact Me</a>
+          <button class="icon-button menu-button" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu"><span aria-hidden="true">☰</span></button>
+        </div>
+      </nav>
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <a href="index.html">Home</a><a href="about.html">About Me</a><a href="projects.html">Projects</a><a class="button" href="#contact">Contact Me</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero grid-background" id="home">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">PORTFOLIO / 2026</p>
+          <h1>AHMAD ZIYAD</h1>
+          <p class="code-line">{ Python, C, Pandas, NumPy, PyTorch, OpenCV, React }</p>
+          <p class="hero-copy">AI/ML, Computer Vision, Creative Web Architecture <span>— Open to Work</span></p>
+          <div class="hero-actions">
+            <a class="button" href="projects.html">View Projects <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="AHMAD-ZIYAD-BIN-ZABIDI-CV.pdf" target="_blank" rel="noopener">View CV</a>
+          </div>
+          <div class="terminal-card" aria-label="Developer profile visual">
+            <div class="terminal-top"><span></span><span></span><span></span><p>ahmad@portfolio:~</p></div>
+            <div class="terminal-body"><p><i>$</i> whoami</p><p class="terminal-output">Computer Engineering student · AI/ML builder</p><p><i>$</i> status</p><p class="terminal-output success">Available for opportunities_</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section profile-section" id="profile">
+        <div class="container">
+          <div class="section-heading"><p class="eyebrow">PROFILE</p><h2 class="code-heading">eat(); sleep(); code(); repeat();</h2><p>Learning Applied AI Through Real-World Projects</p></div>
+          <div class="profile-grid">
+            <ol class="timeline">
+              <li><span>01</span><div><h3>Bachelor of Computer Engineering</h3><p>Graduating from Universiti Malaysia Perlis (UniMAP) with hands-on experience in applied AI and software development.</p></div></li>
+              <li><span>02</span><div><h3>Specializing in Python & AI/ML</h3><p>I am constantly building projects with YOLO, LLMs, and React to turn data into practical solutions.</p></div></li>
+              <li><span>03</span><div><h3>Love learning by building</h3><p>I enjoy tackling real-world problems through code, and thrive when collaborating on team projects and workshops.</p></div></li>
+            </ol>
+            <figure class="portrait"><img src="ahmad-portfolio-portrait.jpg" alt="Portrait of Ahmad Ziyad standing indoors in a dark blazer" /><figcaption>AHMAD ZIYAD / ENGINEER IN PROGRESS</figcaption></figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact"><div class="container contact-content"><p class="eyebrow">LET'S CONNECT</p><h2>Have a project in mind?</h2><div class="contact-actions"><div class="contact-email-stack"><a class="button button-outline" href="https://wa.link/x9d2l1" target="_blank" rel="noreferrer">WhatsApp</a><span class="contact-email">ahmdziyad24@gmail.com</span></div></div></div></section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html"><span>YAD</span><strong>Ahmad Ziyad</strong></a><div><a href="about.html">About</a><a href="projects.html">Projects</a><a href="#contact">Contact</a></div><p>© <span id="year"></span> Ahmad Ziyad. All rights reserved.</p></div></footer>
+    <dialog class="email-composer" id="email-composer" aria-labelledby="email-composer-title">
+      <form class="email-composer__form" id="email-composer-form">
+        <button class="email-composer__close" id="email-composer-close" type="button" aria-label="Close email composer">×</button>
+        <h2 class="sr-only" id="email-composer-title">Compose email to Ahmad Ziyad</h2>
+        <div class="email-fields">
+          <div class="email-field"><label for="email-to">To:</label><span class="recipient-pill" id="email-to">Ahmad Ziyad &lt;ahmdziyad24@gmail.com&gt;</span></div>
+          <div class="email-field"><label for="email-name">Name:</label><input id="email-name" name="name" type="text" placeholder="Your name" autocomplete="name" required /></div>
+          <div class="email-field"><label for="email-from">Email:</label><input id="email-from" name="email" type="email" placeholder="you@example.com" autocomplete="email" required /></div>
+          <div class="email-field"><label for="email-subject">Subject:</label><input id="email-subject" name="subject" type="text" placeholder="What's this about?" /></div>
+          <div class="topic-row" aria-label="Message topic"><button type="button" data-topic="Freelance project">Freelance project</button><button type="button" data-topic="Collaboration">Collaboration</button><button type="button" data-topic="Just saying hi">Just saying hi</button></div>
+        </div>
+        <div class="email-divider"></div>
+        <label class="sr-only" for="email-message">Message</label>
+        <textarea id="email-message" name="message" placeholder="I'd like to talk about...">Hi Ahmad,
+
+</textarea>
+        <div class="email-divider"></div>
+        <p id="email-form-status" role="status" aria-live="polite"></p>
+        <div class="email-composer__footer"><div class="email-socials"><a href="https://github.com/ahmdyad" target="_blank" rel="noopener" aria-label="GitHub"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.866-.014-1.7-2.782.604-3.369-1.34-3.369-1.34-.455-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.892 1.529 2.341 1.087 2.91.831.091-.646.349-1.087.635-1.337-2.22-.253-4.555-1.11-4.555-4.943 0-1.092.39-1.985 1.029-2.685-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.026A9.564 9.564 0 0 1 12 6.8a9.59 9.59 0 0 1 2.504.337c1.909-1.295 2.748-1.026 2.748-1.026.546 1.377.203 2.394.1 2.647.64.7 1.028 1.593 1.028 2.685 0 3.842-2.339 4.687-4.566 4.935.359.309.678.92.678 1.852 0 1.336-.012 2.415-.012 2.744 0 .267.18.578.688.48A10.003 10.003 0 0 0 22 12c0-5.523-4.477-10-10-10Z" /></svg></a><a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">in</a><span>Usually replies within a day</span></div><button class="email-send" type="submit">Send</button></div>
+      </form>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
