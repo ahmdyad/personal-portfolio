@@ -19,3 +19,6 @@ node_modules
 .DS_Store
 
 pnpm-workspace.yaml
+
+pnpm-workspace.yaml
+tsconfig.tsbuildinfo
