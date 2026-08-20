@@ -25,3 +25,7 @@ tsconfig.tsbuildinfo
 
 pnpm-workspace.yaml
 tsconfig.tsbuildinfo
+
+pnpm-workspace.yaml
+tsconfig.tsbuildinfo
+*.tsbuildinfo
